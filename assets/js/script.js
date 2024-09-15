@@ -1,5 +1,5 @@
 //alert("hallooooo");
 
-fetch('test.json')
+fetch('./assets/txt/test.txt')
 .then(response => response.text())
-.then(data => {console.log(data);});
+.then(data => {alert(data);});
